@@ -1,4 +1,4 @@
-××改用用http代理： {+forward-override{forward “http ip”:6000}}
+××改用用http代理(gfwlist.action)： {+forward-override{forward “http ip”:6000}}
 
 curl -skL https://raw.github.com/zfl9/gfwlist2privoxy/master/gfwlist2privoxy -o gfwlist2privoxy
 
