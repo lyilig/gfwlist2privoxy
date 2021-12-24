@@ -1,8 +1,8 @@
-××改用用http代理： {+forward-override{forward “proxy ip”:6000}}
+××改用用http代理： {+forward-override{forward “http ip”:6000}}
 
 curl -skL https://raw.github.com/zfl9/gfwlist2privoxy/master/gfwlist2privoxy -o gfwlist2privoxy
 
-bash gfwlist2privoxy '127.0.0.1:1087'
+bash gfwlist2privoxy '127.0.0.1:80'
 
 #适用于 privoxy 的 gfwlist.pac（socks5 代理）
 
