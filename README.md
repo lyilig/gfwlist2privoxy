@@ -1,5 +1,8 @@
 ××改用用http代理： {+forward-override{forward “proxy ip”:6000}}
 
+curl -skL https://raw.github.com/zfl9/gfwlist2privoxy/master/gfwlist2privoxy -o gfwlist2privoxy
+bash gfwlist2privoxy '127.0.0.1:1087'
+
 #适用于 privoxy 的 gfwlist.pac（socks5 代理）
 
 - 由于 macOS 的命令行参数与 Linux 命令行参数部分不一致，macOS 用户请使用 `gfwlist2privoxy-mac-zsh` 代替 `gfwlist2privoxy`。使用 `zsh` 能得到更好的提示效果。-- [c-rainstorm](https://github.com/c-rainstorm)
